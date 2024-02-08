@@ -35,7 +35,7 @@ def rgb2rgba(rgb, alpha):
     return f"rgba{tuple(rgba)}"
 
 # Load pywal colors from the default colors.json file
-with open(WAL_PATH, "r") as wal_json:
+with open(WAL_PATH, "r", encoding = "utf-8") as wal_json:
     wal = load(wal_json)
     # Close the file
 
@@ -132,6 +132,6 @@ theme['schematic']['worksheet'] = color7
 
 # Write the colors to the kiwal.json file
 theme_str = dumps(theme, indent=2)
-with open(THEME_PATH, "w") as theme_json:
+with open(THEME_PATH, "w", encoding = "utf-8") as theme_json:
     theme_json.write(theme_str)
     # Close the file
