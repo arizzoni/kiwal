@@ -1,0 +1,1 @@
+This is a short script designed to produce a JSON-formatted KiCad colorscheme using the existing colors in the user's .cache/wal directory. It can be executed to generate the theme file in the default install location. Further developments will include better control of the source and target.
