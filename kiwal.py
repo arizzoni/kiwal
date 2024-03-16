@@ -4,7 +4,8 @@
 from json import dumps, load # JSON library
 
 WAL_PATH = "/home/air/.cache/wal/colors.json"
-THEME_PATH = "/home/air/.local/share/kicad/7.0/3rdparty/colors/kiwal.json"
+# THEME_PATH = "/home/air/.local/share/kicad/7.0/3rdparty/colors/kiwal.json"
+THEME_PATH = "/home/air/.local/share/kicad/8.0/3rdparty/colors/kiwal.json"
 
 def hex2rgb(arg_hex):
     """Convert Hex colors to RGB"""
